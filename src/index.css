@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+  word-break: break-all;
+}
+
+input {
+  outline: none !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+#input {
+  outline: none !important;
+  border: none !important;
+  font-size: 35px;
+}
+
+#input::placeholder {
+  font-size: 35px;
+  color: gray;
+}
+
+#input:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+.ant-message-notice-content {
+  transform: scale(1.5);
+  margin-top: 50px;
+}
+
+.ant-btn-primary {
+  background-color: rgb(0, 123, 255);
+}
+
+.card-title,
+.details-title {
+  background: linear-gradient(90deg, #ff8a00 -0.07%, #bd00ff 100.07%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+}
+
+.card-title:hover {
+  cursor: pointer;
+  transition: all 0.2s linear;
+  border-bottom: 2px solid black;
+}
+
+.hoverEffect {
+  color: rgb(255, 111, 111) !important;
+}
+
+.hoverEffect:hover {
+  color: red !important;
+}
+
+a:hover {
+  color: inherit;
+}
+#parse img {
+  border-radius: 10px !important;
+}
