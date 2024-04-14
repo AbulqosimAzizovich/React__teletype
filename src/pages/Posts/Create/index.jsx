@@ -35,9 +35,6 @@ const CreatePost = () => {
     }
   };
 
-  if (!localStorage.getItem("token")) {
-    return <Navigate to="/sign-in" />;
-  }
   return (
     <div className="w-full max-w-[800px] mx-auto">
       <input
